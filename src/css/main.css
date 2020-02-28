@@ -1,0 +1,88 @@
+body {
+    background: url("https://78.media.tumblr.com/6d28cd69fd07148c2d760134476cac74/tumblr_p72ovdYIbm1u7ns0go1_1280.jpg") no-repeat center center;
+    background-attachment: fixed;
+
+    background-size: cover;
+    font-family: Serif;
+
+
+
+}
+#navbarNav li a:hover{
+    color: white;
+    font-size: 2em;
+    border: 1px solid aqua;
+
+
+}
+.navbar-light {
+
+    background: rgba(255,255, 255,0.3);
+    color: white;
+
+
+}
+.nav-item{
+
+    color: white;
+    padding-left: 20px;
+}
+.navbar-light .navbar-brand {
+    color:white;}
+
+.navbar-collapse{
+
+
+    color: white;
+}
+.navbar-toggler-icon:hover{
+
+    color: white;
+
+
+}
+
+.navbar-brand img{
+
+
+    height: 30px;
+    width: 80px;
+}
+.jumbotron{
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+.col-sm-4 img{
+
+    height: 100px;
+    width:200px;
+
+}
+.col-sm-4 {
+
+    color: white;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.btn-primary{
+    background-color: aqua;
+
+    margin-top: 40px;
+    margin-left:45%;
+    color: black;
+    border-radius:10px;
+
+
+}
+
+@media (min-width: 100px) and (max-width:560px) {
+
+    .btn-primary{
+        margin-left: 30%;
+    }
+
+}
